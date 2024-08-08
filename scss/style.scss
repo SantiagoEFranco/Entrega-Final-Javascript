@@ -1,0 +1,28 @@
+$blanco:#D7D9D9;
+$gris:#8C8C87;
+$marronClaro:#8C593B;
+$marronOscuro:#731F1F;
+$negro:#0D0D0D;
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+html{
+    font-size: 62.5%;
+    /* 1 rem  = 10px */
+    body{
+        background-color: $negro;
+    }
+}
+
+@import "nav";
+@import "footer";
+@import "index";
+@import "nosotros";
+@import "sucursales";
+@import "novedades";
+@import "contacto";

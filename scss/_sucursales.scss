@@ -1,0 +1,117 @@
+.parallax3{
+    background-image: url("../assets/sucursales.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 94vh;
+    .section-parallax3{
+        .article-sucursales{
+            h1{
+                color:white;
+                font-size: 4rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 3rem;
+                -webkit-text-stroke-width:1.5px;
+                -webkit-text-stroke-color:rgba(0, 0, 0, 0.32);
+            }
+        }
+    }
+    .section-suc{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .card-sucursales{
+            background-color: #141414de;
+            color: #D7D9D9;
+            font-size: 2vh;
+            padding: 0.5rem;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            border-radius: 1rem;
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+            P{
+                overflow: hidden;
+                padding-bottom: 4rem;
+            }
+            .map{
+                iframe{
+                    padding: 2rem;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:767px){
+    .parallax3{
+        .section-parallax3{
+            .article-sucursales{
+                h1{
+                    overflow-y: hidden;
+                }
+            }
+        }
+        .section-suc{
+            display: block;
+            
+            .card-sucursales{
+                width: 90vw;
+                height: 70vh;
+                margin-bottom: 1.5rem;
+                P{
+                    font-size: 1.5rem;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1023px){
+    .parallax3{
+        .section-suc{
+            .card-sucursales{
+                margin: 1rem;
+                p{
+                    font-size: 1.3rem;
+                }
+                .map{
+                    iframe{
+                        height: 25rem;
+                        margin-top:2rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width:1024px){
+    .parallax3{
+        .section-parallax3{
+            .article-sucursales{
+                h1{
+                    overflow-y: hidden;
+                    font-size: 5rem;
+                }
+            }
+        }
+        .section-suc{
+            .card-sucursales{
+                width: 22vw;
+                height: 70vh;
+                .map{
+                    overflow-y: hidden;
+                    margin-bottom: 1rem;
+                }
+            }
+        }
+    }
+    
+}
+

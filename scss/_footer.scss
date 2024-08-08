@@ -1,0 +1,37 @@
+$blanco:#D7D9D9;
+$gris:#8C8C87;
+$marronClaro:#8C593B;
+$marronOscuro:#731F1F;
+$negro:#0D0D0D;
+
+footer{
+    .footerContainer {
+        height: 2.5rem;
+        display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+     grid-row-gap: 0px; 
+     background-color: #212529;
+        a{
+            svg{
+                color: $blanco;
+                &:hover{
+                 color: #babbbb8f;
+                }
+            }
+        }
+        } 
+}
+
+@media screen and (min-width:320px) and (max-width:767px){
+    footer{
+        background-color: #141414eb;
+        position:fixed;
+        height: 3rem;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        bottom: 0;
+    }   
+}

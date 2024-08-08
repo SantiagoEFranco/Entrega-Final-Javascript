@@ -1,0 +1,32 @@
+main{
+    .section-title{
+        h1{
+            font-size: 4rem;
+        color: #D7D9D9;
+        margin:3rem 0 3rem 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow-y: hidden;
+        -webkit-text-stroke-width:1.5px;
+        -webkit-text-stroke-color:rgba(0, 0, 0, 0.32);
+        }
+    }
+    .carousel-container{
+        overflow-y: hidden;
+        margin-bottom: 5rem;
+    }
+}
+
+@media screen and (min-width:1024px){
+    main{
+        .section-title{
+            h1{
+                overflow-y: hidden;
+            }
+        }
+        .carousel-container{
+            height: 80vh;
+        }
+    }
+}

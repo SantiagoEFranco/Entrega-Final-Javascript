@@ -1,0 +1,186 @@
+$blanco:#D7D9D9;
+$gris:#8C8C87;
+$marronClaro:#8C593B;
+$marronOscuro:#731F1F;
+$negro:#0D0D0D;
+
+main{
+    .parallax{
+        background-image: url("../assets/portada.jpg");
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        .index-title{
+            display: flex;
+            justify-content: center;
+            align-items:start;
+            flex-direction:column;
+            color: #D7D9D9;
+            h1{
+                overflow-y: hidden;
+                -webkit-text-stroke-width:1px;
+                -webkit-text-stroke-color:rgba(0, 0, 0, 0.32);
+                text-align: center;
+            }
+            h2{
+                font-size: 4rem;
+                overflow-y: hidden;
+                -webkit-text-stroke-width:1px;
+                -webkit-text-stroke-color:rgba(0, 0, 0, 0.32);
+                text-align: center;
+                
+            }
+            p{
+                font-size: 2rem;
+                overflow-y: hidden;
+                color: white;
+                -webkit-text-stroke-width:1.5px;
+                -webkit-text-stroke-color:rgba(0, 0, 0, 0.089);
+                text-align: center;
+            }
+        }
+            .index-btn{
+                display: inline-flex;
+                justify-content:center;
+                align-items: center;
+                
+                .submit-btn{
+                    margin: 3rem;
+                    font-size: 2rem;
+                    border-radius: 2rem;
+                   a{
+                    text-decoration: none;
+                    color: $marronClaro;
+                   }
+                }
+                #btn-reservas{
+                    background-color:#8C593B;
+                    border-color:#8C593B;
+                    color: #D7D9D9;
+                    &:hover{
+                        background-color:#8c593bf6;  
+                    }
+                }
+            }
+        
+    }
+}
+
+
+
+
+@media screen and (min-width:320px) and (max-width:767px){
+    main{
+        .parallax{
+            height: 90vh;
+            .index-title{
+                width: 80%;
+                h1{
+                    font-size: 5rem;
+                }
+                h2{
+                    font-size: 3.5rem;
+                    margin-bottom: 1rem;
+                }
+                p{
+                    font-size: 1.5rem;
+                    
+                }
+            }
+                .index-btn{
+                    .submit-btn{
+                        width: 31vw;
+                        height: 5vh;
+                    }
+                }
+            
+        }
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1023px){
+    main{
+        .parallax{
+            display: flex;
+            justify-content: start;
+           padding-top: 12rem;
+            .index-title{
+                width: 70%;
+                h1{
+                    font-size: 8rem;
+                }
+                h2{
+                    font-size: 3rem;
+                }
+                p{
+                    font-size: 1.6rem;
+                    
+                }
+                .index-btn{
+                 
+                    .submit-btn{
+                        height: 7vh;
+                        margin: 1rem;
+                        font-size: 1.6rem;
+                       
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width:1024px){
+    main{
+        .parallax{
+           
+            .index-title{
+                display: flex;
+                justify-content: center;
+                align-items:start;
+                flex-direction:column;
+                color: #D7D9D9;
+                width: 50%;
+                h1{
+                    overflow-y: hidden;
+                    font-size: 10rem;
+                }
+                h2{
+                    font-size: 4rem;
+                    overflow-y: hidden;
+                }
+                p{
+                    font-size: 2rem;
+                    
+                }
+            }
+                .index-btn{
+                    display: inline-flex;
+                    justify-content:center;
+                    align-items: center;
+                    .submit-btn{
+                        margin: 3rem;
+                        font-size: 2rem;
+                        border-radius: 2rem;
+                        width: 18rem;
+                    }
+                    #btn-reservas{
+                        background-color:#8C593B;
+                        border-color:#8C593B;
+                        color: #D7D9D9;
+                        &:hover{
+                            background-color:#8c593bd0;  
+                        }
+                    }
+                }
+            
+        }
+    }
+    
+}

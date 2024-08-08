@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Sacramento&display=swap');
+nav{
+   .container-fluid{
+    .navbar-brand{
+        color: #D7D9D9;
+        font-family: "Cookie", cursive;
+        &:hover{
+            font-weight: bold;
+        }
+    }
+    span{
+        background-color: #D7D9D9;
+    }
+    #navbarNav{
+     ul{
+        li{
+            .nav-link{
+                color: #D7D9D9;
+                font-size: 1.3rem;
+                &:hover{
+                    font-weight: bold;
+                }
+            }
+        }
+     }
+    }
+   }
+}
+
+@media screen and (min-width:320px) and (max-width:767px){
+    nav {
+        a{
+        width: 87%;
+    }
+    button{
+        width: 9%;
+    }
+    #navbarNav{
+        ul{
+            li{
+                .nav-link{
+        display: flex;
+        justify-content: center;
+    }
+            }
+        }
+    }
+    } 
+}
+
+@media screen and (min-width:768px) and (max-width:1023px){
+    nav {
+        a{
+            width: 92%;
+    }
+    button{
+        width: 6%;
+    }
+    #navbarNav{
+        ul{
+            li{
+                .nav-link{
+        display: flex;
+        justify-content: center;
+    }
+            }
+        }
+    }
+    } 
+}
+@media screen and (min-width:1024px){
+    nav{
+        .container-fluid{
+         .navbar-brand{
+             color: #D7D9D9;
+             font-family: "Cookie", cursive;
+             font-size: 2rem;
+         }
+         span{
+             background-color: #D7D9D9;
+         }
+         #navbarNav{
+          ul{
+             li{
+                 .nav-link{
+                     color: #D7D9D9;
+                     font-size: 1.3rem;
+                 }
+             }
+          }
+         }
+        }
+}
+}

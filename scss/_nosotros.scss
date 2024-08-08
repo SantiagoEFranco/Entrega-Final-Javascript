@@ -1,0 +1,165 @@
+main{
+    .main-nosotros{
+        background-image: url("../assets/nosotros.jpg");
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    section{
+        .article-nosotros{
+            color: #D7D9D9;
+            flex-direction: column;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            h1{
+                font-size:5rem ;
+                display: flex;
+                justify-content: center;
+                padding-bottom: 1rem;
+                border-color: #0D0D0D;
+                color: white;
+                -webkit-text-stroke-width:1.5px;
+                -webkit-text-stroke-color:rgba(0, 0, 0, 0.32);
+            }
+            p{
+                font-size: 2.5rem;
+                color: #ffffff;
+                -webkit-text-stroke-width: 0.2px;
+                -webkit-text-stroke-color:rgba(0, 0, 0, 0.32);
+                text-align: center;
+            }
+        }
+        
+    }
+    .section-card{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 1rem;
+        text-align: justify;
+        .card{
+            background-color:#d7d9d9d8 ;
+            border-radius: 0.5rem;
+            font-size: 1.5rem;
+            overflow-y: hidden;
+            p{
+                display: flex;
+                justify-content: center;
+                align-items:center;
+                padding: 0.5rem;
+                margin-left: 1rem;
+                width: 90%;
+                overflow: hidden;
+            }
+            .avatar{
+                width: 9rem;
+                height: 9rem;
+                color: #454747;
+                display: flex;
+                justify-content: center;
+                margin-top: 2rem;
+            }
+        }        
+    }
+}
+}
+
+@media screen and (min-width:320px) and (max-width:767px){
+    main{
+        .main-nosotros{
+        section{
+            .article-nosotros{
+                width: 100%;
+                text-align: center;
+                p{
+                    width: 90%;
+                    text-align: center;
+                    font-size: 1.7rem;
+                }
+            }
+            
+        }
+        .section-card{
+            width: 100%;
+            display: block;
+            padding-bottom: 1rem;
+            .card{
+                width: 90%;
+                padding-bottom: 4rem;
+                margin-bottom: 3rem;
+                p{
+                    font-size: 1.4rem;
+                }
+                .avatar{
+                    margin-bottom: 1rem;
+                }
+            }        
+        }
+    }
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1023px){
+    main{
+        .main-nosotros{
+            height: 100vh;
+        section{
+            .article-nosotros{
+                width: 87%;
+                padding-top: 4rem;
+                p{
+                    font-size: 1.6rem;
+                }
+            }
+            
+        }
+        .section-card{
+            width: 95%;
+            padding-top: 3rem;
+            .card{
+                margin: 1rem;
+                height: 40rem;
+                p{
+                    padding-top: 4rem;
+                }
+            }        
+        }
+    }
+    }
+}
+
+@media screen and (min-width:1024px){
+    main{
+        .main-nosotros{
+        section{
+            .article-nosotros{
+                width: 90%;
+                padding-top: 5rem;
+                p{
+                    font-size: 2rem;
+                }
+            }
+            
+        }
+        .section-card{
+            .card{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 20%;
+                height:50vh;
+                margin-bottom: 5rem;
+                p{
+                    font-size: 1.4rem;
+                }
+                .avatar{
+                    margin: 0;
+                }
+            }        
+        }
+    }
+    }
+}

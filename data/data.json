@@ -1,0 +1,52 @@
+
+[
+  {
+    "id": 1,
+    "nombre": "Alfajor de Dulce de Leche",
+    "desc": "Delicioso alfajor relleno de dulce de leche, cubierto con chocolate.",
+    "precio": "1500$",
+    "imagen": "../assets/images/1.jpg"
+  },
+  {
+    "id": 2,
+    "nombre": "Alfajor de Chocolate Blanco",
+    "desc": "Alfajor relleno con dulce de leche, bañado en chocolate blanco y espolvoreado con coco rallado.",
+    "precio": "1350$",
+    "imagen": "../assets/images/2.jpg"
+  },
+  {
+    "id": 3,
+    "nombre": "Crepe de Nutella",
+    "desc": "Crepe relleno con Nutella y rodajas de banana, espolvoreado con azúcar glass.",
+    "precio": "2500$",
+    "imagen": "../assets/images/3.jpg"
+  },
+  {
+    "id": 4,
+    "nombre": "Crepe de Frutos Rojos",
+    "desc": "Crepe relleno con una mezcla de frutos rojos frescos y crema de mascarpone.",
+    "precio": "2500$",
+    "imagen": "../assets/images/4.jpg"
+  },
+  {
+    "id": 5,
+    "nombre": "Croissant Clásico",
+    "desc": "Croissant recién horneado, con una textura crujiente por fuera y suave por dentro.",
+    "precio":"2000$",
+    "imagen": "../assets/images/5.jpg"
+  },
+  {
+    "id": 6,
+    "nombre": "Croissant de Almendra",
+    "desc": "Croissant relleno con crema de almendra y espolvoreado con almendras fileteadas.",
+    "precio": "2800$",
+    "imagen": "../assets/images/6.jpg"
+  }
+]
+
+
+
+
+
+
+
